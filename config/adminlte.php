@@ -220,30 +220,60 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'Início',
-            'url'         => 'home',
+            'text'        => 'Dashboard',
+            'url'         => 'admin',
             'icon'        => 'fas fa-fw fa-home',
             #'label'       => 4,
             #'label_color' => 'success',
         ],
-        ['header' => 'Minha Conta'],
         [
-            'text' => 'Perfil',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-user',
+            'text'        => 'Minha Conta',
+            'icon'        => 'far fa-user-circle',
+            'submenu' => [
+                [
+                    'text' => 'Perfil',
+                    'url'  => 'admin/settings',
+                    'icon' => 'fas fa-fw fa-user',
+                ],
+                [
+                    'text' => 'Alterar senha',
+                    'url'  => 'admin/settings',
+                    'icon' => 'fas fa-fw fa-lock',
+                ],
+            ],
         ],
         [
-            'text' => 'Alterar senha',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
+            'text'        => 'Financeiro',
+            'icon'        => 'fas fa-hand-holding-usd',
+            'submenu' => [
+                [
+                    'text'        => 'Saldo',
+                    'url'         => 'admin/balance',
+                    'icon'        => 'far fa-credit-card',
+                  
+                ],
+                [
+                    'text'        => 'Histórico',
+                    'url'         => 'admin/historic',
+                    'icon'        => 'fas fa-history',
+                  
+                ],
+            ],
         ],
-        ['header' => 'Usuários'],
+
         [
-            'text' => 'Listar',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-users',
+            'text'        => 'Usuários',
+            'icon'        => 'fas fa-fw fa-users',
+            'submenu' => [
+                [
+                    'text' => 'Listar',
+                    'url'  => 'admin/settings',
+                    'icon' => 'fas fa-list',
+                ],
+            ],
         ],
-        ['header' => 'Valores'],
+        
+        
         [
             'text' => 'Materiais',
             'icon' => 'fas fa-file-invoice-dollar',
