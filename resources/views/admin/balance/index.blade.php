@@ -15,12 +15,13 @@
             <div class="card-body">
                 <a href="" class="btn btn-primary"><i class="fas fa-sync"></i> Atualizar</a>
                 <a href="" class="btn btn-danger"><i class="fas fa-money-bill-wave"></i> Sacar</a>
+                <a href="{{ route('balance.deposit') }}" class="btn btn-success"><i class="fas fa-money-bill-wave"></i> Depositar</a>
             </div>
             <div class="col-lg-4 col-xs-6">
                 <div class="box-body">
                     <div class="small-box bg-green">
                         <div class="inner">
-                            <h3>R$ {{ number_formact($amount, 2, ',' , ' ')}}</h3>
+                            <h3> R$ {{number_format($amount, 2, ',', '.')}}</h3>
 
                             <p>Crédito Positivo</p>
                         </div>
