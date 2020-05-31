@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Recycling</b>1.0',
+    'logo' => '<b>Reciclagem</b> 1.0',
     'logo_img' => 'vendor/adminlte/dist/img/logotipo.jpg',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -168,7 +168,7 @@ return [
 
     'use_route_url' => false,
 
-    'dashboard_url' => 'home',
+    'dashboard_url' => 'admin',
 
     'logout_url' => 'logout',
 
