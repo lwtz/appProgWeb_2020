@@ -3,6 +3,8 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use UxWeb\SweetAlert\SweetAlert;
+use Alert;
 
 class MonayValidationFormRequest extends FormRequest
 {
@@ -16,8 +18,15 @@ class MonayValidationFormRequest extends FormRequest
         return true;
     }
 
-    /**
-     * Get the validation rules that apply to the request.
+    public function messages(){
+
+        return[
+            'value.required'=>'Campo Obrigatóio',
+            'value.numeric'=>'Insira um valor Válido',
+            
+        ];
+    }
+    /* * Get the validation rules that apply to the request.
      *
      * @return array
      */

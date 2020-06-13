@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Laravel</title>
+        <title>Reciclagem</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -11,14 +11,20 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
+                background-image: url("vendor/adminlte/dist/img/reciclagem_teste.jpg"); 
+                background-repeat: no-repeat;
+                background-color: #cccccc;
+                height: 500px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;  
+                color: black;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
             }
-
+            
             .full-height {
                 height: 100vh;
             }
@@ -48,7 +54,7 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: blue;
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;
@@ -80,18 +86,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Sistema de Reciclagem
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://www.facebook.com/ronei.rademannely">Ronei Rademann Ely</a>
+                    <a href="https://www.facebook.com/hertz.william">Willian Hertz</a>
                 </div>
             </div>
         </div>

@@ -232,12 +232,12 @@ return [
             'submenu' => [
                 [
                     'text' => 'Perfil',
-                    'url'  => 'admin/settings',
+                    'url'  => '#',
                     'icon' => 'fas fa-fw fa-user',
                 ],
                 [
                     'text' => 'Alterar senha',
-                    'url'  => 'admin/settings',
+                    'url'  => '#',
                     'icon' => 'fas fa-fw fa-lock',
                 ],
             ],
@@ -267,7 +267,7 @@ return [
             'submenu' => [
                 [
                     'text' => 'Listar',
-                    'url'  => 'admin/settings',
+                    'url'  => 'admin/list',
                     'icon' => 'fas fa-list',
                 ],
             ],
@@ -280,37 +280,37 @@ return [
             'submenu' => [
                 [
                     'text' => 'Papel',
-                    'url'  => '#',
+                    'url'  => 'admin/papel',
                     'icon' => 'fas fa-fw fa-recycle',
                     'icon_color' => 'blue',
                 ],
                 [
                     'text' => 'Plástico',
-                    'url'  => '#',
+                    'url'  => 'admin/plastico',
                     'icon' => 'fas fa-fw fa-recycle',
                     'icon_color' => 'red',
                 ],
                 [
                     'text' => 'Vidro',
-                    'url'  => '#',
+                    'url'  => 'admin/vidro',
                     'icon' => 'fas fa-fw fa-recycle',
                     'icon_color' => 'green',
                 ],
                 [
                     'text' => 'Metal',
-                    'url'  => '#',
+                    'url'  => 'admin/metal',
                     'icon' => 'fas fa-fw fa-recycle',
                     'icon_color' => 'yellow',
                 ],
                 [
                     'text' => 'Não Recicláveis',
-                    'url'  => '#',
+                    'url'  => 'admin/naoreciclavel',
                     'icon' => 'fas fa-fw fa-recycle',
                     'icon_color' => 'grey',
                 ],
                 [
                     'text' => 'Cadastrar Tipo',
-                    'url'  => '#',
+                    'url'  => 'admin/cadastrarTipo',
                     'icon' => 'fas fa-fw fa-plus',
                     'icon_color' => 'green',
                 ],

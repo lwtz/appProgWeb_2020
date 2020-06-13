@@ -12,12 +12,7 @@
     <div class="col-12">
         <div class="card">
             <div class="card-body">
-                @if ($errors->any())
-                    <div class="alert alert-warning">
-                        @foreach ($errors->all() as $error)
-                            <p>{{$error }}</p>
-                        @endforeach
-                @endif
+            @include('sweetalert::alert')
                 <form method="POST" action="{{route('deposit.store')}}">
                     {!! csrf_field() !!}
                <div class="form-group">
